@@ -12,8 +12,7 @@ class ForLoop {
 	  System.out.println("sb:" + sb);
 	  
 	   for (int i = 1; i <= 10; ++i) { //initialized (parameter )block // test expression (unity operator)/ increase tmbh 1. 
-         System.out.println("My var at Line " + i + " with value : " + myWar);
-         myWar += "-" + i;
+         System.out.println("My var at Line " + i + " with value : " + (myWar += "-" + i));
       }
    }
 }

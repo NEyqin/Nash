@@ -21,7 +21,7 @@ public class Builder {
 			System.out.println("Firts three: " + sb.substring(0,3)) ;
 			System.out.println("Given String:" + sb.substring(sb.length()-3));
 			int startOfConstant = (sb.indexOf("I am Studying Java"));
-			int endOfConstant = startOfConstant + constant.length();
+			int endOfConstant = startOfConstant + (constant.length());
 			System.out.println("Print Studying: " + sb.substring(startOfConstant + endOfConstant)) ;
 		
 			//insert <_space your name> after "am"
